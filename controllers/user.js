@@ -1,9 +1,16 @@
-const { User } = require('../models/user');
+const User = require('../models/user');
 
 const userController = {
-  // get all users
   getUsers(req, res) {
-    return res.send('Users page')
+    User.find()
+      .select('-__v')
+      .then((dbUserData) => {
+        res.json(dbUserData);
+      })
+      .catch((err) => {
+        console.log(err);
+        res.status(500).json(err);
+      });
   },
 }
 
