@@ -1,35 +1,32 @@
 # curly-octo-waddle
-NoSQL Social Network backend using MongoDB
-
-GIVEN a social network API
-
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
+https://youtu.be/-ETQxkmTvXI
 
 
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   
+
+## Table of Contents
+[Description](#description)   
+[Install](#install)   
+[Usage](#usage)   
+[Contributing](#contributing)   
+[Tests](#tests)   
+[Questions](#questions)   
+
+## Description
+Backend for social media page using mongoDB.
+
+## Install
+Install express and mongoose.
+
+## Usage
 
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
+## Contributing
+Contributions closed
 
+## Tests
+Clone into this repo, install mongoose and express via ```npm i mongoose express``` and initialize it in the cli using ```node server.js``` and then utilize Insomnia to test front-end-less programs.
 
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
-
-A walkthrough video that demonstrates the functionality of the social media API must be submitted, and a link to the video should be included in your README file.
-
-The walkthrough video must show all of the technical acceptance criteria being met.
-
-The walkthrough video must demonstrate how to start the application’s server.
-
-The walkthrough video must demonstrate GET routes for all users and all thoughts being tested in Insomnia.
-
-The walkthrough video must demonstrate GET routes for a single user and a single thought being tested in Insomnia.
-
-The walkthrough video must demonstrate POST, PUT, and DELETE routes for users and thoughts being tested in Insomnia.
-
-Walkthrough video must demonstrate POST and DELETE routes for a user’s friend list being tested in Insomnia.
-
-Walkthrough video must demonstrate POST and DELETE routes for reactions to thoughts being tested in Insomnia.
+## Questions
+This README was created by tarrol, and I am reachable at quickandrey@gmail.com for any questions, comments, or concerns regarding this project.
